@@ -148,5 +148,6 @@ Alt-Gr + " + u =
 
 // TODO: This layer is not implemented yet
 
+// TODO: Implement the lambda key
 
 
