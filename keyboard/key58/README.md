@@ -42,12 +42,14 @@ The default keymap is the one I defined, which is quite specific for my own need
     |-----------------------------------|                                  |-----------------------------------|
     | Caps|  z  |  x  |  c  |  v  |  b  |                                  |  n  |  m  |  ,  |  .  |  /  |Exec |
     `-----------------------------------|--------------,    ,--------------------------------------------------,
-                            | Alt | Ctrl| Shift | Super|    |AltGr | Shift |Ctrl | Spc |
+                            | Alt | Ctrl| Shift | Super|    | Fn2 | Spc | Ctrl | AltGr |
                             `--------------------------'    `--------------------------'
-                                  |  Fn |                                  |  Fn |
+                                  | Fn0 |                                  | Fn1 |
                                   `-----'                                  `-----'
 
 #### 2.0 Shift layer
+
+This is not a real layer per se, it is documented here for completeness only.
 
     ,-----------------------------------,                                  ,-----------------------------------,
     | Esc |     |     |     |     |     |                                  |     |     |     |     |     |  λ  |
@@ -58,12 +60,10 @@ The default keymap is the one I defined, which is quite specific for my own need
     |-----------------------------------|                                  |-----------------------------------|
     | Caps|  Z  |  X  |  C  |  V  |  B  |                                  |  N  |  M  |  <  |  >  |  ?  |Exec |
     `-----------------------------------|--------------,    ,--------------------------------------------------,
-                            | Alt | Ctrl| Shift | Super|    |AltGr | Shift |Ctrl | Spc |
+                            | Alt | Ctrl| Shift | Super|    | Fn2 | Spc | Ctrl | AltGr |
                             `--------------------------'    `--------------------------'
-                                  |  Fn |                                  |  Fn |
+                                  | Fn0 |                                  | Fn1 |
                                   `-----'                                  `-----'
-
-TODO: Move volume controls and screen brightness controls to another layer.
 
 #### 3.0 Fn layer
 
@@ -78,9 +78,9 @@ The Fn layer provides the function keys on the first row, and the most used symb
     |-----------------------------------|                                  |-----------------------------------|
     |NLock| PgUp| Home| End | PgDn|  \  |                                  |  _  |  ◀  |  ▼  |  ▲  |  ▶  |Exec |
     `-----------------------------------|--------------,    ,--------------------------------------------------,
-                            | Alt | Ctrl| Shift | Super|    |AltGr | Shift |Ctrl | Spc |
+                            | Alt | Ctrl| Shift | Super|    | Fn2 | Spc | Ctrl | AltGr |
                             `--------------------------'    `--------------------------'
-                                  |  Fn |                                  |  Fn |
+                                  | Fn0 |                                  | Fn1 |
                                   `-----'                                  `-----'
 
 
@@ -98,9 +98,9 @@ Alt-Gr layer tries to cover the most used math symbols, in basic math, logic, al
     |-----------------------------------|                                  |-----------------------------------|
     |NLock|  ←  |  →  |  ∙  |  ∑  |  ∏  |                                  |  ⁿ  |  √  |  ≤  |  ≥  |  ÷  |Exec |
     `-----------------------------------|--------------,    ,--------------------------------------------------,
-                            | Alt | Ctrl| Shift | Super|    |AltGr | Shift |Ctrl | Spc |
+                            | Alt | Ctrl| Shift | Super|    | Fn2 | Spc | Ctrl | AltGr |
                             `--------------------------'    `--------------------------'
-                                  |  Fn |                                  |  Fn |
+                                  | Fn0 |                                  | Fn1 |
                                   `-----'                                  `-----'
 
 TODO: Need to refine this layer, this is not optimal. This layer is kind of subjective.
@@ -150,4 +150,8 @@ Alt-Gr + " + u =
 
 // TODO: Implement the lambda key
 
+#### 6.0 Mouse Key layer
 
+This layer contains mouse keys and buttons, and system control keys, such as volume control, screen brightness control, sleep/hibernate, etc.
+
+// TODO: This layer is not implemented yet
